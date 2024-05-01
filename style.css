@@ -1,0 +1,50 @@
+body{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(246, 243, 243);
+}
+form{
+    background-color:  rgb(246, 243, 290);;
+    text-align: center;
+    box-shadow: 5px 5px 15px black ;
+    max-width: 500px;
+    margin: auto;
+    padding: 25px ;
+    border-radius: 10px;
+    height: 500px;
+}
+.h1{
+    color: blueviolet;
+    font-size: 1.5em;
+}
+#textBox{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 50%;
+    font-size: 2em;
+    border-radius: 4px;
+}
+#btn{
+    width: 5em;
+    padding: 17px 16px;
+    font-size:20px ;
+    margin-top: 12px;
+    background-color: red ;
+    color: antiquewhite;
+    margin-top: 20px;
+    border-radius: 12px;
+    transition: 1s;
+}
+#btn:hover{
+    background-color: rgb(192, 6, 6) ;
+}
+#btn:active{
+    background-color: rgb(109, 5, 5) ;
+}
+#result{
+    font-size: 1.5em;
+    margin: 15px;
+}
